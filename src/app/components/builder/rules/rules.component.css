@@ -1,0 +1,20 @@
+.box{
+    color:black;
+    height: 100px;
+    width: 100px;
+    border: 1px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.demo{
+    display: flex;
+    min-height: 800px;
+    gap:20px;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}

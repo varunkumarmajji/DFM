@@ -1,0 +1,25 @@
+<div class="example-container"  [class.example-is-mobile]="mobileQuery.matches">
+  <mat-toolbar-row class="navbarflex">
+    <div >LOGO</div>
+    <div >FORM BUILDER</div>
+    <div ><mat-icon>face</mat-icon></div>
+    </mat-toolbar-row>
+    <mat-toolbar class="primary-bg-color navbarflextwo"> 
+      <div>
+      <button mat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" routerLink="build">
+        <span class="white-color" >BUILD</span>
+      </button>
+      <button mat-button class="example-icon" aria-label="Example icon-button with share icon" routerLink="rules">
+        <span class="white-color">RULES</span>
+      </button>
+      <button mat-button class="example-icon" aria-label="Example icon-button with share icon" routerLink="publish">
+        <span class="white-color">PUBLISH</span>
+      </button>
+    </div> 
+    <div>
+      <mat-slide-toggle labelPosition="before" >Preview Form</mat-slide-toggle>
+    </div>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+</div>
+  
